@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SecretsServer | ServerStatus</title>
+  </head>
+  <meta name="theme-color" content="#478ac9" />
+  <meta property="og:title" content="SecretsServer | Server Status" />
+  <meta property="og:type" content="website" />
+  <body bgcolor="black">
+    -
+    <script src="https://pommesmitketchup.com/api/server-status/js/serverstatus.js"></script>
+    <center>
+      <a class="centermotd">Server Status</a>
+      <div class="servers">
+        <a class="connection">Connection: </a
+        ><a id="connectionStatus">⚠ cannot reach API</a>
+        <br />
+        <a class="proxy">Proxy: </a><a id="proxyStatus">⚠ cannot reach API</a>
+        <br />
+        <a class="proxy">FMod-Proxy: </a
+        ><a id="proxyStatusV2">⚠ cannot reach API</a>
+        <br />
+        <a class="lawinserverv2">LawinServer-V2: </a
+        ><a id="lawinserverv2Status">⚠ cannot reach API</a>
+      </div>
+      <div>
+        <a class="goback" href="https://pommesmitketchup.com">Go Back</a>
+      </div>
+    </center>
+  </body>
+  <style>
+    a {
+      font-family: "Open Sans", sans-serif;
+      color: white;
+    }
+    span {
+      font-family: "Open Sans", sans-serif; /* same as "a" */
+      color: white;
+    }
+    .centermotd {
+      font-size: 50px;
+    }
+    .servers {
+      font-size: 50px;
+      position: relative;
+      top: 50px;
+    }
+    .goback {
+      font-size: 25px;
+      position: relative;
+      top: 70px;
+    }
+  </style>
+</html>

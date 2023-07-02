@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Config",
+    "\\Config\\DefaultProfiles",
+    "\\DiscordBot",
+    "\\DiscordBot\\commands",
+    "\\model",
+    "\\responses",
+    "\\routes",
+    "\\structs",
+    "\\xmpp"
+  ],
+  "SelectedNode": "\\DiscordBot\\commands\\secrets-joke.js",
+  "PreviewInSolutionExplorer": false
+}

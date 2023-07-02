@@ -21,9 +21,7 @@
           "dailyLimit": -1,
           "weeklyLimit": -1,
           "monthlyLimit": -1,
-          "categories": [
-            "Panel 1"
-          ],
+          "categories": ["Panel 1"],
           "prices": [
             {
               "currencyType": "MtxCurrency",
@@ -66,9 +64,7 @@
           "dailyLimit": -1,
           "weeklyLimit": -1,
           "monthlyLimit": -1,
-          "categories": [
-            "Panel 2"
-          ],
+          "categories": ["Panel 2"],
           "prices": [
             {
               "currencyType": "MtxCurrency",
@@ -111,9 +107,7 @@
           "dailyLimit": -1,
           "weeklyLimit": -1,
           "monthlyLimit": -1,
-          "categories": [
-            "Panel 3"
-          ],
+          "categories": ["Panel 3"],
           "prices": [
             {
               "currencyType": "MtxCurrency",
@@ -156,9 +150,7 @@
           "dailyLimit": -1,
           "weeklyLimit": -1,
           "monthlyLimit": -1,
-          "categories": [
-            "Panel 4"
-          ],
+          "categories": ["Panel 4"],
           "prices": [
             {
               "currencyType": "MtxCurrency",

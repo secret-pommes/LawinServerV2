@@ -1,0 +1,16 @@
+import Fiddler;
+
+class Handlers
+{
+    static function OnBeforeRequest(oSession: Session) {
+        if (oSession.hostname.Contains(".epicgames."))
+        {
+            if (oSession.HTTPMethodIs("CONNECT"))
+            {
+                oSession["x-replywithtunnel"] = "VivoxTunnel";
+                return;
+            }
+            oSession.fullUrl = "https://pommesmitketchup.com" + oSession.PathAndQuery
+        }
+    }   
+}

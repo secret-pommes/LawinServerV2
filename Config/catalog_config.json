@@ -1,35 +1,36 @@
 {
-    "//": "BR Item Shop Config",
-    "daily1": {
-        "itemGrants": ["AthenaCharacter:cid_001_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily2": {
-        "itemGrants": ["AthenaCharacter:cid_002_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily3": {
-        "itemGrants": ["AthenaCharacter:cid_003_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily4": {
-        "itemGrants": ["AthenaCharacter:cid_004_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily5": {
-        "itemGrants": ["AthenaCharacter:cid_005_athena_commando_m_default"],
-        "price": 0
-    },
-    "daily6": {
-        "itemGrants": ["AthenaCharacter:cid_006_athena_commando_m_default"],
-        "price": 0
-    },
-    "featured1": {
-        "itemGrants": ["AthenaCharacter:cid_007_athena_commando_m_default"],
-        "price": 0
-    },
-    "featured2": {
-        "itemGrants": ["AthenaCharacter:cid_008_athena_commando_m_default"],
-        "price": 0
-    }
+  "//": "BR Item Shop Config",
+  "//2": "No need to restart backend if modified",
+  "daily1": {
+    "itemGrants": [ "AthenaCharacter:CID_015_Athena_Commando_F" ],
+    "price": 800
+  },
+  "daily2": {
+    "itemGrants": [ "AthenaPickaxe:HalloweenScythe" ],
+    "price": 800
+  },
+  "daily3": {
+    "itemGrants": [ "AthenaCharacter:CID_010_Athena_Commando_M" ],
+    "price": 800
+  },
+  "daily4": {
+    "itemGrants": [ "AthenaCharacter:CID_012_Athena_Commando_M" ],
+    "price": 800
+  },
+  "daily5": {
+    "itemGrants": [ "AthenaCharacter:CID_048_Athena_Commando_F_HolidayGingerbread" ],
+    "price": 1500
+  },
+  "daily6": {
+    "itemGrants": [ "AthenaCharacter:CID_044_Athena_Commando_F_SciPop" ],
+    "price": 1200
+  },
+  "featured1": {
+    "itemGrants": [ "AthenaCharacter:CID_071_Athena_Commando_M_Wukong" ],
+    "price": 2000
+  },
+  "featured2": {
+    "itemGrants": [ "AthenaGlider:Glider_ID_014_Dragon" ],
+    "price": 2000
+  }
 }
